@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-color:#f1f1f1;
+}
+.row{
+    height: auto;
+    margin-top: 10%;
+}
+.col-md-12{
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+}
+.col1{
+    background-color: gainsboro;
+    height: 400px;
+}
+.img{
+   margin-top: 20px; 
+}
+.col2{
+    background-color: #ffffff;
+    height: 400px;
+}
+.button{
+    padding:4%;
+}
+button[class=contact]{
+    border-radius: 45px;
+    background-color: #ffffff;
+    border: 1px solid lavander;
+    font-size: 12px;
+}
+.designer{
+    text-align: center;
+    letter-spacing: 2px;
+        
+}
+hr.style1{
+    width:  30px;
+    border: 1px solid #000000;
+}
+.p{
+    font-size: 10px;
+    text-align: center
+}
+.footer{
+    font-size: 12px;
+    word-spacing: 5px;
+    margin-top: 40px;
+}
+@media screen and (min-width: 480px) {
+    .col1 {width: 35%; float: left;}
+    .col2 {width: 35%;}
+    .img{
+        width: 100%;
+    }
+}
